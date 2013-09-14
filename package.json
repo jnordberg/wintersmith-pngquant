@@ -1,0 +1,27 @@
+{
+  "name": "wintersmith-pngquant",
+  "version": "1.0.0",
+  "description": "pngqaunt plugin for wintersmith",
+  "author": "Johan Nordberg <code@johan-nordberg.com>",
+  "license": "MIT",
+  "keywords": [
+    "wintersmith",
+    "wintersmith-plugin",
+    "pngquant",
+    "png",
+    "crush"
+  ],
+  "main": "lib/",
+  "dependencies": {
+    "pngquant-bin": "~0.1.4"
+  },
+  "devDependencies": {
+    "coffee-script": ">1.5"
+  },
+  "peerDependencies": {
+    "wintersmith": "2.x"
+  },
+  "scripts": {
+    "prepublish": "./bin/compile"
+  }
+}
