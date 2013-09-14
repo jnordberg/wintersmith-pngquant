@@ -1,6 +1,6 @@
 {
   "name": "wintersmith-pngquant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pngqaunt plugin for wintersmith",
   "author": "Johan Nordberg <code@johan-nordberg.com>",
   "license": "MIT",

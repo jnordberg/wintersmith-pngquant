@@ -3,8 +3,9 @@
 echo "Compiling CoffeeScript..."
 
 if [ -f ./node_modules/.bin/coffee ]; then
-    ./node_modules/.bin/coffee -o ./lib -b -c ./src
-    exit $?
+  ./node_modules/.bin/coffee -o ./lib -b -c ./src
+  cp ./src/pngquant.js ./lib/
+  exit 0
 else
   echo "ERROR: CoffeScript package missing."
   exit 1
