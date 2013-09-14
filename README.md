@@ -31,9 +31,11 @@ Speed defaults to 11 (fastest) when previewing and 1 (best quality) when buildin
 
 ```json
 {
-  "ncolors": 256,
-  "speed": 1/11
-  quality: null
-  nofs: false
+  "pngquant": {
+    "ncolors": 256,
+    "speed": 1/11,
+    "quality": null,
+    "nofs": false
+  }
 }
 ```
