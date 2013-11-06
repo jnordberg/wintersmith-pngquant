@@ -1,6 +1,6 @@
 {
   "name": "wintersmith-pngquant",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "pngqaunt plugin for wintersmith",
   "author": "Johan Nordberg <code@johan-nordberg.com>",
   "license": "MIT",
@@ -13,7 +13,7 @@
   ],
   "main": "lib/",
   "dependencies": {
-    "pngquant-bin": "~0.1.4"
+    "pngquant-bin": "0.1.4"
   },
   "devDependencies": {
     "coffee-script": ">1.5"
